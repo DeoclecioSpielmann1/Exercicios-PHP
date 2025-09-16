@@ -4,14 +4,14 @@ $vetor_a = array();
 $vetor_b = array();
 $resultados = array();
 
-echo "Por favor, digite 10 números para o PRIMEIRO vetor:\n";
+echo "2, 7, 11, 12, 19, 22, 23, 25, 28, 30:\n";
 for ($i = 0; $i < 10; $i++) {
     $input_a = rand(1, 10);
     $vetor_a[] = $input_a;
     echo "Número " . ($i + 1) . " armazenado: " . $input_a . "\n";
 }
 
-echo "\nPor favor, digite 10 números para o SEGUNDO vetor:\n";
+echo "\n3, 5, 10, 13, 16, 20, 24, 26, 27, 29:\n";
 for ($i = 0; $i < 10; $i++) {
 
     $input_b = rand(1, 10);

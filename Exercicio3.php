@@ -2,7 +2,7 @@
 
 $numeros = array();
 
-echo "Por favor, digite 10 números:\n";
+echo "10, 12, 17, 23, 26, 33, 35, 42, 45, 48:\n";
 for ($i = 0; $i < 10; $i++) {
 
     $input_number = rand(1, 20);
@@ -13,7 +13,7 @@ for ($i = 0; $i < 10; $i++) {
 echo "\n--- Vetor original ---\n";
 print_r($numeros);
 
-echo "\nPor favor, digite um número para multiplicar os elementos do vetor:\n";
+echo "\n 2:\n";
 $multiplicador = rand(2, 5);
 echo "O número escolhido foi: " . $multiplicador . "\n";
 
@@ -23,5 +23,6 @@ foreach ($numeros as $numero) {
 
 echo "\n--- Resultado da Multiplicação ---\n";
 print_r($resultados);
+}
 
 ?>

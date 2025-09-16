@@ -1,6 +1,6 @@
 <?php
 
-$numero_mes = date('n');
+$numero_mes = date('3');
 
 $nome_mes = match ($numero_mes) {
     1 => 'Janeiro',

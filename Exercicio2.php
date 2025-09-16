@@ -6,7 +6,7 @@ $positivos = 0;
 $pares = 0;
 $impares = 0;
 
-echo "Por favor, digite 10 números:\n";
+echo "10, 17, 21, 37, 39, 40, 44, 51, 68, 99:\n";
 
 for ($i = 0; $i < 10; $i++) {
 

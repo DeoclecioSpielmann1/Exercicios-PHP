@@ -16,7 +16,7 @@ $meses = array(
 );
 
 $numero_digitado = rand(1, 13);
-echo "Você digitou o número: " . $numero_digitado . "\n";
+echo "6: " . $numero_digitado . "\n";
 
 if (array_key_exists($numero_digitado, $meses)) {
     $nome_mes = $meses[$numero_digitado];

@@ -2,7 +2,7 @@
 
 $numeros = array();
 
-echo "Por favor, digite 10 números:\n";
+echo "1, 2, 3, 4, 5, 11, 12, 13, 14, 15:\n";
 for ($i = 0; $i < 10; $i++) {
 
     $input_number = rand(1, 100);
