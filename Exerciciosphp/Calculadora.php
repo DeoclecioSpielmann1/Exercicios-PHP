@@ -1,13 +1,38 @@
 <?php
-if (!function_exists ("somar")) {
-function somar ($x, $y)
-return $x +$y
-}
-    
-echo "### 4\n\n";
 
-for ($i = 1; $i <= 10; $i++) {
-    $resultado = 4 * $i;
-    echo "4 x " . $i . " = " . $resultado . "\n";
+$num1 = 15;
+$num2 = 5;
+$operacao = 'divisao'; 
+
+$resultado = null;
+
+switch ($operacao) {
+    case 'soma':
+        $resultado = $num1 + $num2;
+        break;
+    case 'subtracao':
+        $resultado = $num1 - $num2;
+        break;
+    case 'multiplicacao':
+        $resultado = $num1 * $num2;
+        break;
+    case 'divisao':
+        if ($num2 !=0) {
+            $resultado = $num1 / $num2;
+        } else {
+            $resultado = "Erro: Divisão por zero.";
+        }
+        break;
+    default:
+        $resultado = "Operação inválida.";
+        break;
 }
+
+echo "<h2>Calculadora PHP</h2>";
+echo "Primeiro número: " . $num1 . "<br>";
+echo "Segundo número: " . $num2 . "<br>";
+echo "Operação: " . $operacao . "<br>";
+echo "<br>";
+echo "<h3>Resultado: " . $resultado . "</h3>";
+
 ?>
