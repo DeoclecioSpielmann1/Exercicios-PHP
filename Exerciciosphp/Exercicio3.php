@@ -15,7 +15,7 @@ print_r($numeros);
 
 echo "\n 2:\n";
 $multiplicador = rand(2, 5);
-echo "O número escolhido foi: " . $multiplicador . "\n";
+echo "5: " . $multiplicador . "\n";
 
 $resultados = array();
 foreach ($numeros as $numero) {
