@@ -1,3 +1,6 @@
+ //Objetivo:
+ //Escrever na tela o nome do mês atual, utilizando switch/match.
+
 <?php
 
 $numero_mes = date('3');

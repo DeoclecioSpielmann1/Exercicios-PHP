@@ -1,3 +1,10 @@
+//Exercício:
+ //Tabuada
+ //Objetivo:
+ //Mostrar a tabuada do 7, sendo:
+ //Multiplicando 1 a 10
+ //Multiplicador 7
+
 <?php
 echo "### 7\n\n";
 

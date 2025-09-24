@@ -1,3 +1,10 @@
+//4.Crie dois vetores, cada um com capacidade para armazenar 10 
+números. Solicite ao usuário que entre com os valores nestes dois 
+vetores.
+//O programa deverá mostrar a multiplicação dos dados dos vetores, em 
+cada um de suas respectivas posições.
+//Ex. vetor_a[0] * vetor_b[0] e assim por diante.
+
 <?php
 
 $vetor_a = array();

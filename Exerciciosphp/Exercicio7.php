@@ -1,3 +1,13 @@
+//7. Utilizando vetores, cadastre 10 pessoas, sendo que você deverá 
+utilizar um vetor para cadastrar cada pessoa.
+//Obtenha seguintes dados do usuário: nome, cidade, idade, sexo. Ao 
+final do cadastro e armazenamento seu programa deverá exibir:
+ //1. Uma listagem de todos os nomes e idades das pessoas 
+cadastradas;
+ //2. Uma listagem de todos os nomes de quem mora em Santos;
+ //3. Uma listagem de todos os nomes de quem tem mais de 18 anos;
+ //4. E quantas pessoas cadastradas são do sexo masculino.
+
 <?php
 
 $pessoas = array();

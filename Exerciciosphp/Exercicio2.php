@@ -1,5 +1,10 @@
-<?php
+//2. Entre com 10 números e armazene em um vetor.
+// Ao final o programa deverá mostrar:
+//- quantos negativos foram digitados;
+//- quantos positivos foram digitados;
+//- quantos pares e ímpares
 
+<?php
 $numeros = array();
 $negativos = 0;
 $positivos = 0;

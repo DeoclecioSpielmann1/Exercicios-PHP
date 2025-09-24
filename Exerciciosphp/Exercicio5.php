@@ -1,3 +1,7 @@
+//5. Crie um vetor que armazene o nome de todos os meses do ano. 
+Peça ao usuário que digite um número e ele informe qual o nome do 
+mês correspondente.
+
 <?php
 
 $meses = array(

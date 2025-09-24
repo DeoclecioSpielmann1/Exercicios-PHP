@@ -1,28 +1,36 @@
+//3. Digite 10 valores númericos e armazene em um vetor. Em seguida, 
+solicite ao usuário um número para multiplicar todos os elementos 
+do vetor.
+//O programa deverá exibir o resultado da multiplicação do número 
+dado pelo usuário em todos os elementos armazenados.
+
 <?php
 
 $numeros = array();
+$multiplicador;
 
-echo "10, 12, 17, 23, 26, 33, 35, 42, 45, 48:\n";
+echo "--- Geração dos 10 Valores ---\n";
+
 for ($i = 0; $i < 10; $i++) {
-
-    $input_number = rand(1, 20);
-    $numeros[] = $input_number;
-    echo "Número " . ($i + 1) . " armazenado: " . $input_number . "\n";
+    $num_gerado = rand(1, 20);
+    $numeros[] = $num_gerado;
+    echo "Valor " . ($i + 1) . " (Gerado): " . $num_gerado . "\n";
 }
 
-echo "\n--- Vetor original ---\n";
+echo "\n--- Vetor Original ---\n";
 print_r($numeros);
 
-echo "\n 2:\n";
 $multiplicador = rand(2, 5);
-echo "5: " . $multiplicador . "\n";
+echo "\n--- Multiplicador Solicitado ---\n";
+echo "O número multiplicador será: " . $multiplicador . "\n";
 
 $resultados = array();
+
 foreach ($numeros as $numero) {
     $resultados[] = $numero * $multiplicador;
+}
 
 echo "\n--- Resultado da Multiplicação ---\n";
 print_r($resultados);
-}
 
 ?>
