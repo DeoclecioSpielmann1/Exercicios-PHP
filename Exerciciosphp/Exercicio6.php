@@ -1,6 +1,5 @@
 //6. Faça um programa que leia 10 valores e os escreva na ordem 
 contrária à que foram digitados.
- Desenvolver aplicações back-end para web
 
 <?php
 
